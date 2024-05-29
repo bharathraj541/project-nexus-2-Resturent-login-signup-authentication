@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background: #c81318;
+  color: #fff;
+  padding: 1em 0;
+}
+
+.logo {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  list-style: none;
+  font-size: medium;
+  text-align: right;
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 1em;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  transition: background 0.3s;
+}
+
+.nav ul li a:hover {
+  background: #ffe233;
+}
+
+.hero {
+  background: url(https://khalidsbiriyanierode.com/wp-content/uploads/2024/04/best-family-restaurants-in-erode.jpeg.webp)
+    no-repeat center center/cover;
+  color: #fff;
+  height: 30rem;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.section {
+  padding: 2em 0;
+}
+
+.menu {
+  margin-left: calc(-4% / 2);
+  margin-right: calc(-4% / 2);
+  background: #f4f4f4;
+  background: url(https://khalidsbiriyanierode.com/wp-content/uploads/2024/04/biryani-restaurants-near-me-for-lunch.png)
+    no-repeat center;
+}
+
+.menu h2,
+h3,
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 2.6rem;
+  text-align: center;
+}
+
+.fusion {
+  display: flex;
+  padding-bottom: 3rem;
+  justify-content: space-evenly;
+  margin-right: 15rem;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  margin-top: 35rem;
+}
+
+.bhb {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 12rem;
+}
+.menu-box {
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 25px;
+}
+.footer {
+  background: #0f1217;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 1em 0;
+  position: absolute;
+  width: 100%;
+  bottom: 1;
+}
+
+.copy-footer {
+  text-align: center;
+  margin: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  border: none;
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #575757;
+}

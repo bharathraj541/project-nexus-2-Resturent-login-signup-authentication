@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friendly Feast</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Friendly Feast</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" id="loginBtn">Login</a></li>
+            <li><a href="#" id="signupBtn">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Welcome to Friendly Feast</h2>
+        <p>Experience the best dining experience.</p>
+      </div>
+    </section>
+    <section id="menu" class="menu section">
+      <div class="container">
+        <!-- Menu items go here -->
+        <h2>Our Menu</h2>
+        <h3>BIRIYANI</h3>
+        <h4>Exclusive and Delicious Firewood Cooked Biriyani</h4>
+      </div>
+      <div class="fusion">
+        <img
+          class="chb"
+          src="https://khalidsbiriyanierode.com/wp-content/uploads/2024/04/chicken-biryani-restaurant-in-erode.webp"
+          width="66"
+          height="66"
+        />
+        <h2 class="menu-box">Chicken Biriyani</h2>
+        <!--  -->
+        <img
+          class="chb"
+          src="https://khalidsbiriyanierode.com/wp-content/uploads/2024/04/mutton-biriyani-in-erode.webp"
+          width="66"
+          height="66"
+        />
+        <h2 class="menu-box">Mutton Biriyani</h2>
+        <!--  -->
+        <img
+          class="chb"
+          src="https://khalidsbiriyanierode.com/wp-content/uploads/2024/04/Egg-Biriyani-in-erode.webp"
+          width="66"
+          height="66"
+        />
+        <h2 class="menu-box">Egg Biriyani</h2>
+        <!--  -->
+        <img
+          class="bhb"
+          src="https://khalidsbiriyanierode.com/wp-content/uploads/2024/04/best-Khuska-in-erode.webp"
+          width="66"
+          height="66"
+        />
+        <h2 class="menu-box">Khuska</h2>
+        <!--  -->
+        <img
+          class="bhb"
+          src="https://khalidsbiriyanierode.com/wp-content/uploads/2024/04/best-prawn-biriyani-in-erode.webp"
+          width="66"
+          height="66"
+        />
+        <h2 class="menu-box">Prawn Biriyani</h2>
+        <!--  -->
+        <img
+          class="bhb"
+          src="https://khalidsbiriyanierode.com/wp-content/uploads/2024/04/chicken-biryani-restaurant-in-erode.webp"
+          width="66"
+          height="66"
+        />
+        <h2 class="menu-box">Naatu Kozhi Seeraga Samba Biriyani</h2>
+      </div>
+    </section>
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeLogin">&times;</span>
+        <h2>Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" name="login-email" required />
+          </div>
+          <div class="form-group">
+            <label for="login-password">Password:</label>
+            <input
+              type="password"
+              id="login-password"
+              name="login-password"
+              required
+            />
+            <input type="checkbox" id="login-show-password" /> Show Password
+          </div>
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div id="signupModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeSignup">&times;</span>
+        <h2>Sign Up</h2>
+        <form>
+          <div class="form-group">
+            <label for="signup-name">Name:</label>
+            <input type="text" id="signup-name" name="signup-name" required />
+          </div>
+          <div class="form-group">
+            <label for="signup-email">Email:</label>
+            <input
+              type="email"
+              id="signup-email"
+              name="signup-email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="signup-password">Password:</label>
+            <input
+              type="password"
+              id="signup-password"
+              name="signup-password"
+              required
+            />
+            <input type="checkbox" id="signup-show-password" /> Show Password
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <section id="about" class="about section">
+          <div class="container">
+            <h2>About Us</h2>
+            <p>Learn more about our story and values.</p>
+            <p>
+              Welcome to Friendly Feast! We're all about bringing people
+              together over delicious meals made with love. Our menu showcases a
+              mix of classic comforts and creative twists, using fresh, local
+              ingredients. With our warm atmosphere and attentive service, every
+              visit promises a memorable dining experience. Come join us and
+              celebrate the joy of good food and great company at Friendly
+              Feast!
+            </p>
+          </div>
+        </section>
+        <section id="contact" class="contact section">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for reservations and inquiries.</p>
+            <p>
+              Contact Us: Address: 123 Main Street, Anytown, USA, 12345
+              <br />Phone: (555) 555-5555 Email: info@friendlyfeast.com
+              <br />For reservations or inquiries, feel free to call us or send
+              us an email. We look forward to hearing from you and welcoming you
+              to Friendly Feast!
+            </p>
+          </div>
+        </section>
+
+        <p class="copy-footer">
+          &copy; 2024 Friendly Feast. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
